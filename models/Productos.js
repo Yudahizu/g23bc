@@ -10,20 +10,19 @@ const Productos = mongoose.Schema({
         unique: true
     },
     cantidad: {
-        type: Int32Array 
+        type: String
     },
     precioVenta: {
-        type: Int32Array
+        type: String
     },
     precioCompra: {
-        type: Int32Array 
+        type: String 
     },
     stockMinimo: {
-        type: Int32Array 
+        type: String 
     },
     descripcion: {
-        type: String, 
-        
+        type: String
     },
     unidadMedida: {
         type: String 
