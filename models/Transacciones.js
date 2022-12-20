@@ -32,7 +32,7 @@ const Transacciones = mongoose.Schema({
                 unique: true
             },
             cantidad: {
-                type: String 
+                type: Number
             },
             precioVenta: {
                 type: String
