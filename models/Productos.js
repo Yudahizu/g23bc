@@ -10,16 +10,16 @@ const Productos = mongoose.Schema({
         unique: true
     },
     cantidad: {
-        type: String
+        type: Number
     },
     precioVenta: {
-        type: String
+        type: Number
     },
     precioCompra: {
-        type: String 
+        type: Number 
     },
     stockMinimo: {
-        type: String 
+        type: Number 
     },
     descripcion: {
         type: String
